@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-image: url(side-image-2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+ 
+
+}
+div {
+    background: #191816;
+    height: 100vh;
+    width: 61.3vw;
+    flex-grow: 1;
+}
+#logo {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+main {
+    background: #24221F;
+    display: flex;
+    width: 40vw;
+    height: 62vh;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 8vw;
+    margin-top: 14vh;
+
+}
+
+nav {
+    display: flex; 
+    margin-top: 3.5vh;
+}
+h1{
+    margin-left: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #D4CCB6;
+
+}
+div > main > header > p {
+    font-family: 'Roboto', sans-serif;
+    color: #AFB6C2;
+    margin-top: 2.5vh;
+}
+
+input.input {
+    width: 295.45px;
+    height: 44px;
+    background-color: #24221F;
+    border: solid grey 1px;
+    border-radius: 4px;
+    outline: none;
+}
+.input:focus {
+    border: solid 3px #FFC632;
+
+}
+label.label {
+    font-family: 'Poppins', sans-serif;
+    color: #AFB6C2;
+}
+form {
+    margin-top: 2.5vh;
+}
+
+#info {
+display: flex;
+flex-direction: flex-start;
+align-items: center;
+
+}
+
+p#passoword {
+ margin-left: 35px;
+ font-family: 'Poppins', sans-serif;
+ font-size: 14px;
+ color: #FFC632;
+}
+
+span#checkbox {
+margin-left: 10px;
+font-family: 'Roboto', sans-serif;
+color: #A9AFB9;
+font-size: 16px;
+}
+button {
+    width: 295.45px;
+    height: 54px;
+    margin-top: 2.5vh;
+    border-radius: 6px;
+    background-color: #FFC632;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+button:hover {
+    width: 300px;
+    height: 60px;
+}
+span#entrar {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #473404;
+}
+ 
+p#conta {
+    margin-top: 1vh;
+    font-family: 'Poppins', sans-serif;
+    color: #FFC632;
+}
+
+#senha {
+    background-image: url(lock.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+#senha:focus {
+    background-image: url(lock-focus.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+#email {
+    background-image: url(mail.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+ #email:focus {
+    background-image: url(mail-focus.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+ }
