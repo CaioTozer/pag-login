@@ -138,3 +138,13 @@ p#conta {
     background-repeat: no-repeat;
     background-position: left center;
  }
+
+ #form-1 input {
+    box-sizing: border-box;
+    padding-left: 25px;
+ }
+
+ #form-2 input {
+    box-sizing: border-box;
+    padding-left: 25px;
+ }
