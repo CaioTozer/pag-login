@@ -147,4 +147,9 @@ p#conta {
  #form-2 input {
     box-sizing: border-box;
     padding-left: 25px;
+    
+ }
+
+ #eye {
+    cursor: pointer;
  }
