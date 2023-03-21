@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,35 +9,44 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./favicon.ico">
 </head>
+
 <body>
-<div>
-    <img src="./logo.svg" alt="" id="logo">
-    <main>
-        <header>
-            <nav>
-                <img src="./log-in.svg" alt="logo">
-                <h1>Faça seu login</h1>
-            </nav>
-            <p>Entre com suas informações de Cadastro</p>
-        </header>
-        <form action="" id="form-1">
-            <label for="Email" class="label">E-mail</label> <br>
-            <input type="email" placeholder="Digite seu e-mail" class="input" required id="email" >
+    <div class="content">
+        <img src="./logo.svg" alt="" id="logo">
+        <form action="" id="form">
+            <header>
+                <nav>
+                    <img src="./log-in.svg" alt="logo">
+                    <h1>Faça seu login</h1>
+                </nav>
+                <p>Entre com suas informações de Cadastro</p>
+            </header>
+            <div class="input-box">
+                <label for="email" class="label">E-mail</label> <br>
+                <input type="email" placeholder="Digite seu e-mail" class="input" required id="email">
+            </div>
+
+
+            <div class="input-box">
+                <label for="senha" class="label">Senha</label> <br>
+                <input type="password" placeholder="Digite sua senha" require maxlength="16" minlength="8" id="senha"
+                    class="input">
+                <img src="./eye.svg" alt="" id="eye" onclick="mostrarOcultarSenha()">
+            </div>
+            <div id="info">
+                <input id="remember-pass-input" type="checkbox" name=""> <label for="remember-pass-input" id="checkbox">
+                    Lembre-me</label>
+                <p id="passoword">Esqueci minha senha</p>
+            </div>
+
+            <footer>
+                <button type="submit"><span id="entrar">Entrar</span></button>
+
+                <p id="conta">Não tem uma conta?<strong> Registre-se</strong></p>
+            </footer>
         </form>
-    
-        <form action="" id="form-2">
-            <label for="passoword" class="label">Senha</label> <br>           
-            <input type="password" placeholder="Digite sua senha" require  maxlength="16" minlength="8" id="senha" class="input">
-            <img src="./eye.svg" alt="" id="eye" onclick="mostrarOcultarSenha()">
-        </form>
-       <form action="" id="info">
-            <input type="checkbox" name=""> <span id="checkbox"> Lembre-me</span>
-            <p id="passoword">Esqueci minha senha</p>
-       </form>
-       <button type="submit"><span id="entrar">Entrar</span></button>
-       <p id="conta">Não tem uma conta?<strong> Registre-se</strong></p>
-    </main>
-    <script src="./main.js"></script>
-</div>
+        <script src="./main.js"></script>
+    </div>
 </body>
+
 </html>
